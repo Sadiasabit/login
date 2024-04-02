@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --padding: 1rem;
+}
+body{
+    background-image: url(img/th\ \(69\).jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+::placeholder{
+
+    background-color: black;  
+}
+label,span{
+    color: white;
+}
+.box__modify{
+    padding: var(--padding);
+    margin-top: 8rem;
+    margin-left: 37%;
+    background-color: black;
+    width: 23vw; 
+    height: 61vh;
+    position: fixed;  
+}
+form{
+    margin-left: 5%; 
+}
+.input__tp{
+    padding: .8rem;
+    border: solid .1rem rgb(114, 107, 107);
+    width: 15rem;
+    background-color: black;
+}
+.btn__acc{
+    padding: .8rem;
+    border: none;
+    width: 15rem;
+    background-color: rgb(8, 129, 209);
+    color: white;
+    border-radius:10px 60px 30px;
+}
+.btn__log{
+    background-color: black;
+    text-align: center;
+}
+a{
+    color: rgb(202, 27, 179);
+}
